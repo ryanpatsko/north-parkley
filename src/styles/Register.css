@@ -290,3 +290,25 @@ h2 {
     gap: 0.5rem;
   }
 } 
+
+@media (max-width: 600px) {
+  .password-gate {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.7rem;
+  }
+
+  .password-gate label {
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+    margin-right: 0;
+  }
+
+  .password-gate input[type="password"],
+  .password-gate button {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    margin-left: 0;
+  }
+} 
